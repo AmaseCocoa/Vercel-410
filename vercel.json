@@ -1,5 +1,9 @@
 {
   "routes": [
-    { "src": "/.*",  "status": 410}
+    { 
+      "src": "/.*",  
+      "status": 410, 
+      "dest": "/index.html"
+    }
   ]
 }
